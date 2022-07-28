@@ -1,0 +1,25 @@
+{
+    "manifest_version": 3,
+    "name": "ColorPicker",
+    "description": "Let's you pick a color from a website.",
+    "version": "1.0",
+    "permissions": [
+        "activeTab",
+        "storage"
+    ],
+    "action": {
+        "default_popup": "popup/popup.html",
+        "default_icon": {
+            "16": "/static/icon/logo16.png",
+            "32": "/static/icon/logo32.png",
+            "48": "/static/icon/logo48.png",
+            "128": "/static/icon/logo128.png"
+        }
+    },
+    "icons": {
+        "16": "/static/icon/logo16.png",
+        "32": "/static/icon/logo32.png",
+        "48": "/static/icon/logo48.png",
+        "128": "/static/icon/logo128.png"
+    }
+}

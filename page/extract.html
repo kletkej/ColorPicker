@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel="stylesheet" href="extract.css">
+  <link href="../libs/bootstrap-5.2.0-beta1-dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+  <div class="container-fluid">
+    <div class="row align-items-center" style="height: 10vh;">
+      <div class="col">
+        <h3 class="text-center user-select-none">
+          Select an area, to get it's prominent colors...
+        </h3>
+      </div>
+    </div>
+    <div class="row mb-5">
+      <div class="col-lg-1"></div>
+      <div class="col col-lg-10">
+
+        <img id="screenshot" class="img-fluid"></img>
+        <div id="screenshot-selected-area" hidden></div>
+        <canvas id="screenshot-canvas" hidden></canvas>
+
+        <div id="colors-display" hidden>
+          <h1 class="mt-5" id="colors-display-heading">Colors</h1>
+          <!-- color displays go here -->
+        </div>
+
+      </div>
+    </div>
+    <div class="row"></div>
+  </div>
+
+  <script src="extract.js"></script>
+  <script src="../libs/bootstrap-5.2.0-beta1-dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

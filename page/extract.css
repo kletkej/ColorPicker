@@ -1,0 +1,60 @@
+html {
+    /* height: 100%; */
+    min-height: 100%;
+    background:
+        linear-gradient(limegreen,
+            transparent),
+        linear-gradient(90deg,
+            skyblue,
+            transparent),
+        linear-gradient(-90deg,
+            coral,
+            transparent);
+
+    background-blend-mode: screen;
+}
+
+body {
+    background-color: transparent !important;
+}
+
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+#screenshot {
+    border-radius: 9px;
+    box-shadow: 0 4px 20px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    cursor: crosshair;
+}
+
+#screenshot-selected-area {
+    border: 1px solid rgb(64, 144, 255);
+    position: absolute;
+    pointer-events: none;
+    background-color: rgba(0, 106, 255, 0.1);
+}
+
+.color-display {
+    box-shadow: 0 4px 20px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 9px;
+    height: 250px;
+    width: 160px;
+    background-color: white;
+}
+
+.color-display-color {
+    border-radius: 6px;
+    /* background-color: blue; */
+    height: 100%;
+    width: 100%;
+}
+
+.separator {
+    border-top: 1px solid black;
+}
+
+.copy-btn-text {
+    all: unset;
+    cursor: pointer;
+}
