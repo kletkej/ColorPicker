@@ -177,6 +177,7 @@ const createColorDisplay = (colorSelectionId, colors) => {
                                 <div class="color-display-color" style="background-color: ${color.toHex};"></div>
                                 <div class="color-display-value text-center">
                                     <button type="button" class="copy-btn-text">${color.toHex}</button>
+                                    <br>
                                     <button type="button" class="copy-btn-text">rgb(${color.toString()})</button>
                                 </div>
                             </div>`;
