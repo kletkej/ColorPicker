@@ -1,5 +1,4 @@
 # ColorPicker
-#### Video Demo: https://youtu.be/2qbLVcbBR00
 #### Description:
 ColorPicker is a Chrome extension that let's you pick a color from a website (e.g. from pictures). It basically takes a screenshot of the active tab and opens it in a new tab. Now you have the ability to select an area, which will get analysed and which colors get displayed at the bottom of the page, together with the rgb and hex code of each color.
 <br>
